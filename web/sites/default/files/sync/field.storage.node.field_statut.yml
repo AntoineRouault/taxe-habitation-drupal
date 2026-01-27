@@ -1,0 +1,30 @@
+uuid: 12888b6a-3312-446d-acd6-a7d8721c2ad7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_statut
+field_name: field_statut
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: en_cours_en_cours|en_cours
+      label: 'En cours'
+    -
+      value: payee_payee|payee
+      label: Payée
+    -
+      value: non_payee_non_payee|non_payee
+      label: 'Non payée'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

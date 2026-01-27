@@ -1,0 +1,30 @@
+uuid: d6cc2298-b9e0-4fc6-9059-fe99e60c19b8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_paye_par
+field_name: field_paye_par
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: antoine_antoine|antoine
+      label: Antoine
+    -
+      value: ulysse_ulysse|ulysse
+      label: Ulysse
+    -
+      value: virgile_virgile|virgile
+      label: Virgile
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

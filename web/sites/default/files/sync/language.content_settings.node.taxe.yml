@@ -1,0 +1,11 @@
+uuid: 3f9f3af5-619b-4e2f-835a-63ca4ffa40eb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.taxe
+id: node.taxe
+target_entity_type_id: node
+target_bundle: taxe
+default_langcode: site_default
+language_alterable: false

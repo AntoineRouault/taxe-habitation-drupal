@@ -1,0 +1,51 @@
+uuid: 0f57d3e9-5a85-4445-a4fc-db3441f73526
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.taxe.field_annee
+    - field.field.node.taxe.field_montant_total
+    - field.field.node.taxe.field_statut
+    - node.type.taxe
+  module:
+    - options
+    - user
+id: node.taxe.default
+targetEntityType: node
+bundle: taxe
+mode: default
+content:
+  field_annee:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_montant_total:
+    type: number_decimal
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_statut:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

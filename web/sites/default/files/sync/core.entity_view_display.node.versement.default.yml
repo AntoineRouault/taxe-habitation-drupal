@@ -1,0 +1,50 @@
+uuid: 10ade319-15ff-43a3-b1a1-1a8c376074e4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.versement.field_date_du_versement
+    - field.field.node.versement.field_montant
+    - field.field.node.versement.field_paye_par
+    - node.type.versement
+  module:
+    - datetime
+    - options
+    - user
+id: node.versement.default
+targetEntityType: node
+bundle: versement
+mode: default
+content:
+  field_date_du_versement:
+    type: datetime_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  field_montant:
+    type: number_integer
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_paye_par:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 104
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,20 @@
+uuid: bb7b0eba-cb52-4766-b9cc-d09af8e1867d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_montant
+field_name: field_montant
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

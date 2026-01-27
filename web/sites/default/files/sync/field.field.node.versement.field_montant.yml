@@ -1,0 +1,23 @@
+uuid: 32b12fec-2e0b-4a0b-9c40-ca63d3aaa9e3
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_montant
+    - node.type.versement
+id: node.versement.field_montant
+field_name: field_montant
+entity_type: node
+bundle: versement
+label: Montant
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: €
+  suffix: ''
+field_type: integer

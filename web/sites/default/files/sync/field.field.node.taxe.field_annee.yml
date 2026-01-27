@@ -1,0 +1,23 @@
+uuid: 723f7ba6-992d-4650-aeb9-7d46223abef8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_annee
+    - node.type.taxe
+id: node.taxe.field_annee
+field_name: field_annee
+entity_type: node
+bundle: taxe
+label: Année
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

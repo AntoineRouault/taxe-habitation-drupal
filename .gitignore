@@ -1,0 +1,23 @@
+# Ignorer les fichiers Drupal
+sites/*/files
+sites/*/private
+.htaccess
+
+# Ignorer les dépendances
+vendor/
+node_modules/
+
+# Ignorer les fichiers de config locale
+sites/*/settings.local.php
+sites/*/services*.yml
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer DDEV
+.ddev/
+
+# Ignorer la base de données exportée
+*.sql
+*.sql.gz

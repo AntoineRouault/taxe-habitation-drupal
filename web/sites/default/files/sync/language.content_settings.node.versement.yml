@@ -1,0 +1,11 @@
+uuid: 4bb93ee2-911c-4ab2-a19c-53c26a734671
+langcode: fr
+status: true
+dependencies:
+  config:
+    - node.type.versement
+id: node.versement
+target_entity_type_id: node
+target_bundle: versement
+default_langcode: site_default
+language_alterable: false

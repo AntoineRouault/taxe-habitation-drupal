@@ -1,0 +1,21 @@
+uuid: e9a38dc0-a2aa-4132-ba8f-831030538652
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_du_versement
+    - node.type.versement
+  module:
+    - datetime
+id: node.versement.field_date_du_versement
+field_name: field_date_du_versement
+entity_type: node
+bundle: versement
+label: 'Date du versement'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

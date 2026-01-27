@@ -1,0 +1,21 @@
+uuid: b16bedf9-e28c-4b15-a0c9-f8d49e47f61f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_statut
+    - node.type.taxe
+  module:
+    - options
+id: node.taxe.field_statut
+field_name: field_statut
+entity_type: node
+bundle: taxe
+label: Statut
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

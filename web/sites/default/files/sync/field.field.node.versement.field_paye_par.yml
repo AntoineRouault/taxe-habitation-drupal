@@ -1,0 +1,21 @@
+uuid: 99e0f85e-9ddf-4c96-ad3f-6d2e739aad33
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paye_par
+    - node.type.versement
+  module:
+    - options
+id: node.versement.field_paye_par
+field_name: field_paye_par
+entity_type: node
+bundle: versement
+label: 'Payé par'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

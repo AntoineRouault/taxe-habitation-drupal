@@ -1,0 +1,23 @@
+uuid: 97e0c2e7-3d0d-4976-9830-781cfb9f3494
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_montant_total
+    - node.type.taxe
+id: node.taxe.field_montant_total
+field_name: field_montant_total
+entity_type: node
+bundle: taxe
+label: 'Montant total'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: €
+field_type: decimal
